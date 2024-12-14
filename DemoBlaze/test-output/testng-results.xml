@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T22:59:14 AST" name="Suite" finished-at="2024-12-12T23:01:03 AST" duration-ms="108423">
+    <groups>
+    </groups>
+    <test started-at="2024-12-12T22:59:14 AST" name="Test" finished-at="2024-12-12T23:01:03 AST" duration-ms="108423">
+      <class name="test.ProductDetailsPageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.ProductDetailsPageTest@68c9133c]" started-at="2024-12-12T22:59:15 AST" name="launchbrowser" finished-at="2024-12-12T22:59:18 AST" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.ProductDetailsPageTest@68c9133c]" started-at="2024-12-12T22:59:18 AST" name="setup" finished-at="2024-12-12T22:59:20 AST" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductInfo()[pri:1, instance:test.ProductDetailsPageTest@68c9133c]" started-at="2024-12-12T22:59:20 AST" name="ProductInfo" finished-at="2024-12-12T22:59:42 AST" duration-ms="21465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductInfo -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:test.ProductDetailsPageTest@68c9133c]" started-at="2024-12-12T22:59:42 AST" name="closingbrowser" finished-at="2024-12-12T22:59:42 AST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- test.ProductDetailsPageTest -->
+      <class name="test.HomePageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.HomePageTest@2ab4bc72]" started-at="2024-12-12T23:00:50 AST" name="launchbrowser" finished-at="2024-12-12T23:00:52 AST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="verifyhomepagetitle()[pri:0, instance:test.HomePageTest@2ab4bc72]" started-at="2024-12-12T23:00:52 AST" name="verifyhomepagetitle" finished-at="2024-12-12T23:00:55 AST" duration-ms="2893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepagetitle -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:test.HomePageTest@2ab4bc72]" started-at="2024-12-12T23:00:55 AST" name="closingbrowser" finished-at="2024-12-12T23:00:55 AST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- test.HomePageTest -->
+      <class name="test.LoginPageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.LoginPageTest@eadd4fb]" started-at="2024-12-12T23:00:59 AST" name="launchbrowser" finished-at="2024-12-12T23:01:01 AST" duration-ms="2524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="loginpagetest()[pri:0, instance:test.LoginPageTest@eadd4fb]" started-at="2024-12-12T23:01:01 AST" name="loginpagetest" finished-at="2024-12-12T23:01:03 AST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetest -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:test.LoginPageTest@eadd4fb]" started-at="2024-12-12T23:01:03 AST" name="closingbrowser" finished-at="2024-12-12T23:01:03 AST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- test.LoginPageTest -->
+      <class name="test.SignUpPageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.SignUpPageTest@4e5ed836]" started-at="2024-12-12T23:00:55 AST" name="launchbrowser" finished-at="2024-12-12T23:00:58 AST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="signuptest()[pri:0, instance:test.SignUpPageTest@4e5ed836]" started-at="2024-12-12T23:00:58 AST" name="signuptest" finished-at="2024-12-12T23:00:59 AST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuptest -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:test.SignUpPageTest@4e5ed836]" started-at="2024-12-12T23:00:59 AST" name="closingbrowser" finished-at="2024-12-12T23:00:59 AST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- test.SignUpPageTest -->
+      <class name="test.PurchasePageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.PurchasePageTest@3de8f619]" started-at="2024-12-12T23:00:13 AST" name="launchbrowser" finished-at="2024-12-12T23:00:15 AST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PurchasePageTest@3de8f619]" started-at="2024-12-12T23:00:15 AST" name="setup" finished-at="2024-12-12T23:00:39 AST" duration-ms="24228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteitems()[pri:1, instance:test.PurchasePageTest@3de8f619]" started-at="2024-12-12T23:00:39 AST" name="deleteitems" finished-at="2024-12-12T23:00:49 AST" duration-ms="9833" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="nav-link" href="#" style="display: block;" id="logout2" onclick="logOut()">...</a> is not clickable at point (606, 40). Other element would receive the click: <input type="text" class="form-control" id="country">
+  (Session info: chrome=131.0.6778.139)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f13a8ef1cc755e179c2aefac98128524, clickElement {id=f.EE91752EEE375D6A210719BA69ACD67A.d.9DEBA4A90E8C112447EBE65CB4EBB612.e.481}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.139, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\mdivk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55980/devtoo..., se:cdpVersion: 131.0.6778.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f13a8ef1cc755e179c2aefac98128524)] -> id: logout2]
+Session ID: f13a8ef1cc755e179c2aefac98128524]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link" href="#" style="display: block;" id="logout2" onclick="logOut()">...</a> is not clickable at point (606, 40). Other element would receive the click: <input type="text" class="form-control" id="country">
+  (Session info: chrome=131.0.6778.139)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f13a8ef1cc755e179c2aefac98128524, clickElement {id=f.EE91752EEE375D6A210719BA69ACD67A.d.9DEBA4A90E8C112447EBE65CB4EBB612.e.481}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.139, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\mdivk\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55980/devtoo..., se:cdpVersion: 131.0.6778.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f13a8ef1cc755e179c2aefac98128524)] -> id: logout2]
+Session ID: f13a8ef1cc755e179c2aefac98128524
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at pages.HomePage.clicklogout(HomePage.java:109)
+at test.PurchasePageTest.deleteitems(PurchasePageTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteitems -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:test.PurchasePageTest@3de8f619]" started-at="2024-12-12T23:00:49 AST" name="closingbrowser" finished-at="2024-12-12T23:00:50 AST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- test.PurchasePageTest -->
+      <class name="test.CartPageTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:test.CartPageTest@710636b0]" started-at="2024-12-12T22:59:42 AST" name="launchbrowser" finished-at="2024-12-12T22:59:45 AST" duration-ms="2671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CartPageTest@710636b0]" started-at="2024-12-12T22:59:45 AST" name="setup" finished-at="2024-12-12T23:00:08 AST" duration-ms="23700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteitems()[pri:1, instance:test.CartPageTest@710636b0]" started-at="2024-12-12T23:00:08 AST" name="deleteitems" finished-at="2024-12-12T23:00:12 AST" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteitems -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:test.CartPageTest@710636b0]" started-at="2024-12-12T23:00:12 AST" name="closingbrowser" finished-at="2024-12-12T23:00:13 AST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- test.CartPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
